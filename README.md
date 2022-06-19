@@ -61,7 +61,7 @@ Using the PySpark, we determined if there is any bias towards reviews that were 
 
 **1. How many Vine reviews and non-Vine reviews were there?**
 
-As the analysis shows there are **4,864,249** total reviews of toy products.  **6,3294** of the total reviews are found helpful. When we examine the helpful reviews, numbers **1,266** are the total vine reviews (paid) that are written by Amazon Vine members and **62,028** are the total number of NON-PAID  reviews. 
+As the analysis shows there are **4,864,249** total reviews of toy products.  **63,294** of the total reviews are found helpful. When we examine the helpful reviews, numbers **1,266** are the total vine reviews (paid) that are written by Amazon Vine members and **62,028** are the total number of NON-PAID  reviews. 
 
 ## Summary 
 
