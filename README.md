@@ -40,6 +40,24 @@ The dataset was extracted into a DataFrame, and transformed into four separate D
 
 ### 2.Determine Bias of Vine Reviews 
 
+Using the PySpark, we determined if there is any bias towards reviews that were written as part of the Vine program. For this analysis, if having a paid Vine review makes a difference in the percentage of 5-star reviews was analyzed. 
+
+* The data was filtered and a new DataFrame was created to retrieve all the rows where the total_votes count is equal to or greater than 20. This helped to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on.
+
+   [totalvotes_df.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_2_images/totalvotes_df.png)
+* The new DataFrame that was created previously was filtered to find the helpful reviews. A new DataFrame that shows helpful reviews was formed and retrieved all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
+
+   [helpful_votes50_df.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_2_images/helpful_votes50_df.png)
+* The previous DataFrame (helpful_votes50) was filtered to display the reviews that were written as part of the Vine program (paid), vine == 'Y'. 
+
+   [vine_review_paid_df.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_2_images/vine_review_paid_df.png)
+* To retrieve all the rows where the review was NOT part of the Vine program (unpaid), vine == ’N’ the same process was repeated. 
+
+   [vine_review_unpaid_df.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_2_images/vine_review_unpaid_df.png)
+* Finally, the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid) were analyzed. 
+
+   [total_numbers.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_2_images/total_numbers.png)
+* The  Vine_Review_Analysis Google Colab Notebook was exported as an ipynb file. [Vine_Review_Analysis.ipynb](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)
 
 
 ## Summary 
