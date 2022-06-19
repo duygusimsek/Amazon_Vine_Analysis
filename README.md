@@ -20,7 +20,7 @@ After those steps, PySpark was used to determine if there is any bias toward fav
 
 
 
-## Sources
+## Resources
 
 **Data Sources** 
 * [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
