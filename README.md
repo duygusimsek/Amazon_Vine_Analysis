@@ -26,6 +26,9 @@ The dataset was extracted into a DataFrame, and transformed into four separate D
     * [review_id_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/review_id_table.png)
     * [vine_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/vine_table.png)
 
+* The connection to the AWS RDS instance. was made. 
+* The DataFrames that correspond to tables in pgAdmin were loaded. 
+* In pgAdmin, a query was run to check that the tables have been populated.
 
 
 ## Summary 
