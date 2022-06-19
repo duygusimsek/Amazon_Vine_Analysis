@@ -16,6 +16,18 @@ Using the cloud ETL process, an AWS RDS database with tables in pgAdmin was crea
 
 The dataset was extracted into a DataFrame, and transformed into four separate DataFrames that match the table schema in pgAdmin. After, that transformed data was uploaded into the appropriate tables. The queries in pgAdmin were run to confirm that the data has been uploaded.
 
+* A new database with Amazon RDS and in pgAdmin was created. 
+* In pgAdmin, a new query to create the tables for the new database was run by using the code from the challenge_schema.sql file. After running the query, four tables in the database were created: “customers_table”, ” products_table”,  “review_id_table”, and “vine_table”.
+* One of the review datasets was extracted and then a new DataFrame was created. [Amazon_Reviews_ETL.ipynb](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
+* The dataset was transformed into four DataFrames that will match the schema in the pgAdmin tables:
+
+    * [customers_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/customers_table.png)
+    * [products_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/products_table.png)
+    * [review_id_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/review_id_table.png)
+    * [vine_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/vine_table.png)
+
+
+
 ## Summary 
 
 
