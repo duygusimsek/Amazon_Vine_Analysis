@@ -12,7 +12,9 @@ After those steps, PySpark was used to determine if there is any bias toward fav
 
 ## Result 
 
+Using the cloud ETL process, an AWS RDS database with tables in pgAdmin was created and from the Amazon Review datasets **[toy product dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Toys_v1_00.tsv.gz)** was picked.
 
+The dataset was extracted into a DataFrame, and transformed into four separate DataFrames that match the table schema in pgAdmin. After, that transformed data was uploaded into the appropriate tables. The queries in pgAdmin were run to confirm that the data has been uploaded.
 
 ## Summary 
 
