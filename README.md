@@ -12,6 +12,8 @@ After those steps, PySpark was used to determine if there is any bias toward fav
 
 ## Result 
 
+### 1.Perform ETL on Amazon Product Reviews
+
 Using the cloud ETL process, an AWS RDS database with tables in pgAdmin was created and from the Amazon Review datasets **[toy product dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Toys_v1_00.tsv.gz)** was picked.
 
 The dataset was extracted into a DataFrame, and transformed into four separate DataFrames that match the table schema in pgAdmin. After, that transformed data was uploaded into the appropriate tables. The queries in pgAdmin were run to confirm that the data has been uploaded.
@@ -26,9 +28,18 @@ The dataset was extracted into a DataFrame, and transformed into four separate D
     * [review_id_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/review_id_table.png)
     * [vine_table.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/vine_table.png)
 
+### Load the DataFrames into pgAdmin
 * The connection to the AWS RDS instance. was made. 
 * The DataFrames that correspond to tables in pgAdmin were loaded. 
 * In pgAdmin, a query was run to check that the tables have been populated.
+
+   * [customers_table_pgAdmin.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/customers_table_pgAdmin.png)
+   * [products_table_pgAdmin.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/products_table_pgAdmin.png)
+   * [review_id_table_pgAdmin.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/review_id_table_pgAdmin.png)
+   * [vine_table_pgAdmin.png](https://github.com/duygusimsek/Amazon_Vine_Analysis/blob/main/Deliverable_1_images/vine_table_pgAdmin.png)
+
+### 2.Determine Bias of Vine Reviews 
+
 
 
 ## Summary 
