@@ -69,10 +69,16 @@ The analysis displays that there are a total of 3,076,917 all 5-star reviews and
 
 **3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
 
-While the percentage of 5-star Toy PAID (vine) and 'helpful' reviews is **0.341232**, the percentage of 5-star Toy NON-PAID and 'helpful' reviews: is **0.483362**. 
+While the percentage of 5-star Toy PAID (vine) and 'helpful' reviews is **0.341232** (34.12%), the percentage of 5-star Toy NON-PAID and 'helpful' reviews: is **0.483362** (48.33%). 
 
 ## Summary 
 
+* The majority of reviews for Toys products are almost nothing or lower results from  Amazon vine participants. 
+* Comparing the helpful 5-star toy products review for vine and non-vine, the number of the vine reviews are not notable. 
+* As can be seen, there were not many helpful reviews, comparing the total reviews. 
+* Even though the percentages may be misleading as the volume of reviews in the vine and non-vine programs vary so much, this itself is a sign that the vine program is not very popular in this category. 
+* This shows that customers (Amazon vine members) don't feel a positivity bias for leaving good reviews in the paid program as there are so few and not so many well-rated.
+* For recommendation,  to have a better understanding of the data, there could be more analysis of Vine members’ star rating scale to see if the Vine program serves its purpose. 
 
 
 
